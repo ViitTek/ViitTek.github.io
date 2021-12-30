@@ -1,0 +1,122 @@
+.container {
+  font-family: 'Open Sans';
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-holder {
+  display: flex;
+  max-height: 500px;
+  margin-top: 10px;
+  align-content: space-between;
+  justify-content: space-between;
+  /*  works on the main axis 
+  justify-content: space-between;   space-around, 
+  align-items: center; /*flex-start, flex-end
+  flex-direction: column (row, row-reverse);
+  flex-wrap: wrap;
+  align-content: flex-start, flex-end, space-between;
+  */
+}
+
+.card {
+  width: 180px;
+  background-color: #3cb878;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: white;
+  box-shadow: 0px 0px 5px 2px grey;
+/*   flex-grow: 1; */
+}
+
+.newsletter-form #email {
+  display: block;
+  width: 100%;
+  border: solid thin #cfcfcf;
+  height: 30px;
+  padding-left: 5px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#terms {
+  position: relative;
+  top: 1px;
+  left: 0px;
+}
+
+.newsletter-form {
+  color: grey;
+  border: solid thin #cfcfcf;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 40px;
+}
+
+.newsletter-form h3 {
+  margin-top: 0;
+}
+
+.newsletter-form button {
+  display: block;
+  width: 100%;
+  background-color: #3cb878;
+  border: 0; /*none or #3cb878*/
+  color: white;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.closing-x {
+  position: absolute;
+  top: 0px;
+  right: 2px;
+}
+
+.closing-x button{
+  background: none;
+  color: black;
+  cursor: pointer;
+}
+
+#question-circle {
+  height: 100px;
+  width: 100px;
+  background-color: #3cb878;
+  border-radius: 50%;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  box-shadow: 0px 0px 3px 3px grey;
+  cursor: pointer;
+}
+
+#about {
+  color: crimson; 
+}
+
+/*
+
+h3 {
+  color: red;
+}
+
+#second {
+  color: green;
+}*/
+
+/*
+h3 {
+  display: inline;
+}
+
+p {
+  display: inline;
+}
+*/
